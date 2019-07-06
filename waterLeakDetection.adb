@@ -4,7 +4,7 @@
 
 with Calendar, Ada.Text_IO, Ada.Integer_Text_IO, Ada.Numerics.Discrete_Random; use Calendar, Ada.Text_IO, Ada.Integer_Text_IO;
 
-procedure leakDetection is
+procedure waterLeakDetection is
 
    type RandWater is range 0 .. 1;
    package RandWaterInt is new Ada.Numerics.Discrete_Random(RandWater);
@@ -59,4 +59,4 @@ procedure leakDetection is
 begin
    null;
 
-end leakDetection;
+end waterLeakDetection;
