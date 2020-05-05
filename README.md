@@ -2,7 +2,7 @@
 
 The aim of this exercise was practice communication between tasks in Ada. For that I used Rendezvous, Rendezvous is the basic mechanism for synchronization and communication of Ada tasks.
 
-**Date:** July 2019
+**Development Date:** June 2019
 
 ## Author
 
